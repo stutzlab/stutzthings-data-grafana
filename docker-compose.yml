@@ -1,6 +1,6 @@
 data_grafana:
   build: .
   ports:
-   - "3000:3000"
+   - "2000:3000"
   volumes:
    - /volumes/stutzthings-grafana:/var/lib/grafana
