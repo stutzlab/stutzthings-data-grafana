@@ -3,5 +3,5 @@ data_grafana:
   ports:
    - "2000:3000"
   volumes:
-   - /volumes/stutzthings-grafana:/var/lib/grafana
+   - /volumes/stutzthings-data-grafana:/var/lib/grafana
   restart: always
